@@ -1,0 +1,32 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.pyo
+venv/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+
+# Security credentials
+key.pem
+cert.pem
+*.key
+*.p12
+*.pfx
+
+# Environment files
+.env
+.env.*
+
+# Generated recordings and screenshots
+videos/*
+screenshots/*
+
+# Keep folders in Git
+!videos/.gitkeep
+!screenshots/.gitkeep
+
+# Logs
+logs/*.csv
